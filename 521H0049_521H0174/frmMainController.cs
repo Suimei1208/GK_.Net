@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace _521H0049_521H0174
 {
-    public partial class Form1 : Form
+    public partial class frmMainController : Form
     {
-        public Form1()
+        public frmMainController()
         {
             InitializeComponent();
         }
