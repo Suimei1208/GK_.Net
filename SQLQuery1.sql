@@ -1,7 +1,7 @@
 CREATE DATABASE StudentInformationDB;
-
+go
 USE StudentInformationDB;
-
+go
 -- User Account Management
 CREATE TABLE Users (
     UserID INT PRIMARY KEY IDENTITY(1,1),
@@ -38,8 +38,8 @@ CREATE TABLE LoginHistory (
     LoginTime DATETIME
 );
 
-USE StudentInformationDB;
-
+-- USE StudentInformationDB;
+go
 -- Insert a new user (Admin)
 INSERT INTO Users (Username, Password, Role, Age, PhoneNumber, Status)
 VALUES ('admin', 'adminpassword', 'Admin', 30, '123-456-7890', 'Normal');
