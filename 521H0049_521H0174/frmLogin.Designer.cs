@@ -37,6 +37,7 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.errlabel = new System.Windows.Forms.Label();
             this.btnForgetPass = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -48,7 +49,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
-            this.errlabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -160,6 +160,18 @@
             this.panel2.Size = new System.Drawing.Size(500, 550);
             this.panel2.TabIndex = 1;
             // 
+            // errlabel
+            // 
+            this.errlabel.AutoSize = true;
+            this.errlabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
+            this.errlabel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errlabel.ForeColor = System.Drawing.Color.Red;
+            this.errlabel.Location = new System.Drawing.Point(300, 311);
+            this.errlabel.Name = "errlabel";
+            this.errlabel.Size = new System.Drawing.Size(179, 16);
+            this.errlabel.TabIndex = 6;
+            this.errlabel.Text = "Incorrect username/password";
+            // 
             // btnForgetPass
             // 
             this.btnForgetPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
@@ -171,7 +183,7 @@
             this.btnForgetPass.Location = new System.Drawing.Point(308, 353);
             this.btnForgetPass.Name = "btnForgetPass";
             this.btnForgetPass.Size = new System.Drawing.Size(164, 45);
-            this.btnForgetPass.TabIndex = 5;
+            this.btnForgetPass.TabIndex = 9;
             this.btnForgetPass.Text = "Forgot password?";
             this.btnForgetPass.UseVisualStyleBackColor = false;
             // 
@@ -185,7 +197,7 @@
             this.btnLogin.Location = new System.Drawing.Point(53, 353);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(125, 45);
-            this.btnLogin.TabIndex = 4;
+            this.btnLogin.TabIndex = 8;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -212,6 +224,7 @@
             this.btnSeePass.Name = "btnSeePass";
             this.btnSeePass.Size = new System.Drawing.Size(20, 20);
             this.btnSeePass.TabIndex = 6;
+            this.btnSeePass.TabStop = false;
             this.btnSeePass.UseVisualStyleBackColor = true;
             this.btnSeePass.Click += new System.EventHandler(this.btnSeePass_Click);
             // 
@@ -225,7 +238,7 @@
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(423, 26);
-            this.tbPassword.TabIndex = 9;
+            this.tbPassword.TabIndex = 7;
             // 
             // pictureBox3
             // 
@@ -257,7 +270,7 @@
             this.tbUsername.Location = new System.Drawing.Point(53, 16);
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(426, 26);
-            this.tbUsername.TabIndex = 8;
+            this.tbUsername.TabIndex = 6;
             // 
             // pictureBox2
             // 
@@ -298,18 +311,6 @@
             this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // errlabel
-            // 
-            this.errlabel.AutoSize = true;
-            this.errlabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
-            this.errlabel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.errlabel.ForeColor = System.Drawing.Color.Red;
-            this.errlabel.Location = new System.Drawing.Point(300, 311);
-            this.errlabel.Name = "errlabel";
-            this.errlabel.Size = new System.Drawing.Size(179, 16);
-            this.errlabel.TabIndex = 6;
-            this.errlabel.Text = "Incorrect username/password";
             // 
             // frmLogin
             // 
