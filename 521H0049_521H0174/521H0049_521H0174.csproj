@@ -84,6 +84,9 @@
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMainController.resx">
+      <DependentUpon>frmMainController.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -131,6 +134,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\openEye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x icon black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\small home icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon closeEye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon openEye.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

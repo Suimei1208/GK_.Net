@@ -31,17 +31,17 @@ namespace _521H0049_521H0174
 
         private void btnSeePass_Click(object sender, EventArgs e)
         {
-            if (isHide)
+            if (!isHide)
             {
-                btnSeePass.BackgroundImage = Properties.Resources.closeEye;
+                btnSeePass.BackgroundImage = Properties.Resources.icon_closeEye;
                 tbPassword.PasswordChar= '*';
-                isHide= false;
+                isHide= true;
             }
             else
             {
-                btnSeePass.BackgroundImage = Properties.Resources.openEye;
+                btnSeePass.BackgroundImage = Properties.Resources.icon_openEye;
                 tbPassword.PasswordChar = '\0';
-                isHide= true;
+                isHide= false;
             }
             
             

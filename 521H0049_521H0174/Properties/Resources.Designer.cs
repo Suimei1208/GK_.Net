@@ -83,9 +83,49 @@ namespace _521H0049_521H0174.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_closeEye {
+            get {
+                object obj = ResourceManager.GetObject("icon closeEye", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_lock {
+            get {
+                object obj = ResourceManager.GetObject("icon lock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_openEye {
+            get {
+                object obj = ResourceManager.GetObject("icon openEye", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_user {
             get {
                 object obj = ResourceManager.GetObject("icon user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_user1 {
+            get {
+                object obj = ResourceManager.GetObject("icon user1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,6 +143,16 @@ namespace _521H0049_521H0174.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menu_icon {
+            get {
+                object obj = ResourceManager.GetObject("menu icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap meomeo {
             get {
                 object obj = ResourceManager.GetObject("meomeo", resourceCulture);
@@ -113,9 +163,29 @@ namespace _521H0049_521H0174.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap minimize_icon {
+            get {
+                object obj = ResourceManager.GetObject("minimize icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap openEye {
             get {
                 object obj = ResourceManager.GetObject("openEye", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap small_home_icon {
+            get {
+                object obj = ResourceManager.GetObject("small home icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +206,16 @@ namespace _521H0049_521H0174.Properties {
         internal static System.Drawing.Bitmap x_icon {
             get {
                 object obj = ResourceManager.GetObject("x icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x_icon_black {
+            get {
+                object obj = ResourceManager.GetObject("x icon black", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
