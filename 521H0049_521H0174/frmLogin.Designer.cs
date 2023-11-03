@@ -212,12 +212,13 @@
             this.tbPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(221)))), ((int)(((byte)(200)))));
             this.tbPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(121)))), ((int)(((byte)(0)))));
+            this.tbPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(62)))), ((int)(((byte)(56)))));
             this.tbPassword.Location = new System.Drawing.Point(53, 16);
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(423, 26);
             this.tbPassword.TabIndex = 7;
+            this.tbPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.password_EnterKeyPressed);
             // 
             // panel3
             // 
@@ -234,11 +235,12 @@
             this.tbUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(221)))), ((int)(((byte)(200)))));
             this.tbUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(121)))), ((int)(((byte)(0)))));
+            this.tbUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(62)))), ((int)(((byte)(56)))));
             this.tbUsername.Location = new System.Drawing.Point(53, 16);
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(426, 26);
             this.tbUsername.TabIndex = 6;
+            this.tbUsername.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.User_EnterKeyPressed);
             // 
             // label1
             // 

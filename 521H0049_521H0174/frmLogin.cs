@@ -47,7 +47,7 @@ namespace _521H0049_521H0174
             
         }
 
-        private bool InputValidator()
+        private void InputValidator()
         {
             string usn = tbUsername.Text.Trim();
             string psw = tbPassword.Text.Trim();
@@ -56,30 +56,37 @@ namespace _521H0049_521H0174
             if (usn.Equals("")||psw.Equals(""))
             {
                 errlabel.Text = "Username/Password is empty";
-                return false;
+                errlabel.Show();
             }
             else if (!DAL.UserExists(usn, psw))
             {
                 errlabel.Text = "Incorrect Username/Password";
-                return false;
+                errlabel.Show();
             }
-
-            return true;
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            if (InputValidator())
+            else
             {
                 frmMainController f = new frmMainController();
                 f.Show();
                 this.Hide();
             }
-            else
-            {
-                errlabel.Show();
-            }
+            
+        }
 
+        
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            InputValidator();
+        }
+
+        private void User_EnterKeyPressed(object sender, KeyPressEventArgs e)
+        {
+            InputValidator();
+        }
+
+        private void password_EnterKeyPressed(object sender, KeyPressEventArgs e)
+        {
+            InputValidator();
         }
     }
 }
